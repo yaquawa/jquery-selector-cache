@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery cache</title>
+</head>
+<body>
+<h1>jQuery cache</h1>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/jquery-selector-cache/src/jquery-selector-cache.js"></script>
+<script>
+    if ($$('h1') === $$('h1')) {
+        console.log('selector cached!')
+    }
+    $$('h1').on('click', function () {
+        if ($$(this) === $$(this)) {
+            console.log('obj cached!');
+        }
+    });
+</script>
+</body>
+</html>

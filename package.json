@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/yaquawa/jquery-selector-cache/issues"
   },
-  "homepage": "https://github.com/yaquawa/jquery-selector-cache#readme"
+  "homepage": "https://github.com/yaquawa/jquery-selector-cache#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "jquery": "^2.1.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "webpack": "^1.12.8"
+  }
 }
