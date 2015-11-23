@@ -25,7 +25,7 @@ $$button.on('click', function () {
 ```
 
 
-##Installation
+## Installation
 To install via the npm, enter the following:  
 `npm install jquery-selector-cache`
 
@@ -34,7 +34,7 @@ or just use the `src/jquery-selector-cache.js` from git repository.
 Feel free to use either AMD or CommonJS to require this function.
 
 
-##Usage
+## Usage
 To cache a jQuery object simply by replacing `$` with `$$`.
 
 ```js
