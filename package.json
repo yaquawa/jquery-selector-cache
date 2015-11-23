@@ -1,0 +1,27 @@
+{
+  "name": "jquery-selector-cache",
+  "version": "1.0.0",
+  "description": "A little plugin to allow us cache the jQuery selector.",
+  "main": "src/jquery-selector-cache.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaquawa/jquery-selector-cache.git"
+  },
+  "keywords": [
+    "jQuery",
+    "cache",
+    "selector"
+  ],
+  "author": "wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaquawa/jquery-selector-cache/issues"
+  },
+  "homepage": "https://github.com/yaquawa/jquery-selector-cache#readme"
+}
