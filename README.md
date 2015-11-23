@@ -33,8 +33,9 @@ or just use the `src/jquery-selector-cache.js` from git repository.
 
 Feel free to use either AMD or CommonJS to require this function.
 
+
 ##Usage
-To cache a jQuery object Simply replace `$` with `$$`.
+To cache a jQuery object simply by replacing `$` with `$$`.
 
 ```js
 if ($$('h1') === $$('h1')) {
