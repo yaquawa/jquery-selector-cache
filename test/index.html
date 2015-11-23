@@ -10,11 +10,11 @@
 <script src="/jquery-selector-cache/src/jquery-selector-cache.js"></script>
 <script>
     if ($$('h1') === $$('h1')) {
-        console.log('selector cached!')
+        console.log('css selector cached!');
     }
     $$('h1').on('click', function () {
         if ($$(this) === $$(this)) {
-            console.log('obj cached!');
+            console.log('DOM object cached!');
         }
     });
 </script>
